@@ -8,7 +8,7 @@
 
 
 ## Instructions
-* Download the model h5 file into this directory.
+* Download the pretrained weights file from [here](https://github.com/matterport/Mask_RCNN/releases/download/v1.0/mask_rcnn_coco.h5) into this directory.
 * install pycocotools (a util library for COCO dataset for Python. Unfortunately required to make the model work in its current state, but I will remove it in future) using the setup.py file in cocoapi/pycocotools. You might need to copy the folder pycocotools into this directory after compilation.
 * Run demo.ipynb
 * main.py has the same code as demo.ipynb, but in .py
